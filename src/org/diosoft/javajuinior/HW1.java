@@ -21,7 +21,7 @@ public class HW1 {
 		}
 		if (numberOfParameters > 0) System.out.println();
 		
-		System.out.print("Total number: ");
+		System.out.print("Total number of input parameters: ");
 		System.out.println(numberOfParameters);	
 	}
 }
