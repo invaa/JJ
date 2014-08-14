@@ -23,7 +23,7 @@ public class Autoboxing {
 	}
 	
 	static Integer add(int ...i) {
-		System.out.print("add(int ...i): ");	
+		System.out.print("add(Integer ...i): ");	
 		int res = 0;
 		
 		for (int index = 0; index < i.length; index++) {
@@ -51,6 +51,15 @@ public class Autoboxing {
 		
 		System.out.print("adding: ");
 		System.out.println(add(a,b));
+		
+		int i = 1;
+		
+			int g = 1; 
+	        int h = g++; 
+	        int c = -g; 
+	        System.out.print(g); 
+	        System.out.print(h); 
+	        System.out.print(c); 
 		
 
 	}
